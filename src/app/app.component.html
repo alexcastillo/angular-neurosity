@@ -1,1 +1,17 @@
-<router-outlet></router-outlet>
+<circle-progress
+  [percent]="focusScore$ | async"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#00bcd4'"
+  [innerStrokeColor]="'#00bcd4'"
+  [animation]="true"
+  [animationDuration]="300"
+  [titleColor]="'white'"
+  [titleFontSize]="'40'"
+  [unitsColor]="'white'"
+  [subtitle]="'focus'"
+  [subtitleFontSize]="'20'"
+  [subtitleColor]="'gray'"
+  [responsive]="true"
+  [startFromZero]="false"
+></circle-progress>

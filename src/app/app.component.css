@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(0, 12, 20);
+  color: rgb(147, 147, 147);
+}
